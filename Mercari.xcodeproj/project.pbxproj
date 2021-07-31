@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B9F7BAA22109B3D009C9359 /* MercariUITestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F7BA922109B3D009C9359 /* MercariUITestBase.swift */; };
+		9B9F7BB62210B27E009C9359 /* BDDTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F7BB52210B27E009C9359 /* BDDTest.swift */; };
+		9B9F7BB82210E64F009C9359 /* MercariSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F7BB72210E64F009C9359 /* MercariSteps.swift */; };
+		9B9F7BBA2210E660009C9359 /* MercariScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F7BB92210E660009C9359 /* MercariScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5BC71F220F55D20047CFA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5BC702220F55C20047CFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5BC709220F55C20047CFA4;
+			remoteInfo = TAU;
+		};
+		9B9F7B9E22104562009C9359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B5BC702220F55C20047CFA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5BC709220F55C20047CFA4;
+			remoteInfo = TAU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B9F7BA922109B3D009C9359 /* MercariUITestBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercariUITestBase.swift; sourceTree = "<group>"; };
+		9B9F7BB52210B27E009C9359 /* BDDTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDDTest.swift; sourceTree = "<group>"; };
+		9B9F7BB72210E64F009C9359 /* MercariSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercariSteps.swift; sourceTree = "<group>"; };
+		9B9F7BB92210E660009C9359 /* MercariScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercariScreen.swift; sourceTree = "<group>"; };
+		FA3A13A826B55A4D00414CD4 /* Mercari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3A13A926B5BCAB00414CD4 /* MercariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MercariTests.xctest; path = "/Users/nipuni/Downloads/XCUITest/build/Debug-iphoneos/MercariTests.xctest"; sourceTree = "<absolute>"; };
+		FA3A13AA26B5BCAB00414CD4 /* MercariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MercariUITests.xctest; path = "/Users/nipuni/Downloads/XCUITest/build/Debug-iphoneos/MercariUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B5BC707220F55C20047CFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC71B220F55D20047CFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9F7B9622104561009C9359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B5BC701220F55C20047CFA4 = {
+			isa = PBXGroup;
+			children = (
+				9B9F7B9A22104562009C9359 /* MercariUITests */,
+				FA3A13A826B55A4D00414CD4 /* Mercari.app */,
+			);
+			sourceTree = "<group>";
+		};
+		9B9F7B9A22104562009C9359 /* MercariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B9F7BBE2210E6E0009C9359 /* Tests */,
+				9B9F7BBD2210E6D8009C9359 /* Steps */,
+				9B9F7BBC2210E6CC009C9359 /* XCUIElemets */,
+				9B9F7BBB2210E6C2009C9359 /* Base */,
+			);
+			path = MercariUITests;
+			sourceTree = "<group>";
+		};
+		9B9F7BBB2210E6C2009C9359 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9B9F7BA922109B3D009C9359 /* MercariUITestBase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9B9F7BBC2210E6CC009C9359 /* XCUIElemets */ = {
+			isa = PBXGroup;
+			children = (
+				9B9F7BB92210E660009C9359 /* MercariScreen.swift */,
+			);
+			path = XCUIElemets;
+			sourceTree = "<group>";
+		};
+		9B9F7BBD2210E6D8009C9359 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				9B9F7BB72210E64F009C9359 /* MercariSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		9B9F7BBE2210E6E0009C9359 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B9F7BB52210B27E009C9359 /* BDDTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B5BC709220F55C20047CFA4 /* Mercari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5BC727220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "Mercari" */;
+			buildPhases = (
+				B0A30F45741BD8C25DA37F3E /* [CP] Check Pods Manifest.lock */,
+				9B5BC706220F55C20047CFA4 /* Sources */,
+				9B5BC707220F55C20047CFA4 /* Frameworks */,
+				9B5BC708220F55C20047CFA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mercari;
+			productName = TAU;
+			productReference = FA3A13A826B55A4D00414CD4 /* Mercari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B5BC71D220F55D20047CFA4 /* MercariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5BC72A220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "MercariTests" */;
+			buildPhases = (
+				9B5BC71A220F55D20047CFA4 /* Sources */,
+				9B5BC71B220F55D20047CFA4 /* Frameworks */,
+				9B5BC71C220F55D20047CFA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5BC720220F55D20047CFA4 /* PBXTargetDependency */,
+			);
+			name = MercariTests;
+			productName = TAUTests;
+			productReference = FA3A13A926B5BCAB00414CD4 /* MercariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B9F7B9822104561009C9359 /* MercariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9F7BA222104562009C9359 /* Build configuration list for PBXNativeTarget "MercariUITests" */;
+			buildPhases = (
+				08F0DAF294B299001F59192F /* [CP] Check Pods Manifest.lock */,
+				9B9F7B9522104561009C9359 /* Sources */,
+				9B9F7B9622104561009C9359 /* Frameworks */,
+				9B9F7B9722104561009C9359 /* Resources */,
+				28A669B80555CA02675DC407 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B9F7B9F22104562009C9359 /* PBXTargetDependency */,
+			);
+			name = MercariUITests;
+			productName = TAUUITests;
+			productReference = FA3A13AA26B5BCAB00414CD4 /* MercariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5BC702220F55C20047CFA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shashikant Jagtap";
+				TargetAttributes = {
+					9B5BC709220F55C20047CFA4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9B5BC71D220F55D20047CFA4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9B5BC709220F55C20047CFA4;
+					};
+					9B9F7B9822104561009C9359 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9B5BC709220F55C20047CFA4;
+					};
+				};
+			};
+			buildConfigurationList = 9B5BC705220F55C20047CFA4 /* Build configuration list for PBXProject "Mercari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B5BC701220F55C20047CFA4;
+			productRefGroup = 9B5BC701220F55C20047CFA4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B5BC709220F55C20047CFA4 /* Mercari */,
+				9B5BC71D220F55D20047CFA4 /* MercariTests */,
+				9B9F7B9822104561009C9359 /* MercariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B5BC708220F55C20047CFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC71C220F55D20047CFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9F7B9722104561009C9359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F0DAF294B299001F59192F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TAU-TAUUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28A669B80555CA02675DC407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAU-TAUUITests/Pods-TAU-TAUUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A30F45741BD8C25DA37F3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TAU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B5BC706220F55C20047CFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5BC71A220F55D20047CFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9F7B9522104561009C9359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9F7BB62210B27E009C9359 /* BDDTest.swift in Sources */,
+				9B9F7BB82210E64F009C9359 /* MercariSteps.swift in Sources */,
+				9B9F7BBA2210E660009C9359 /* MercariScreen.swift in Sources */,
+				9B9F7BAA22109B3D009C9359 /* MercariUITestBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B5BC720220F55D20047CFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5BC709220F55C20047CFA4 /* Mercari */;
+			targetProxy = 9B5BC71F220F55D20047CFA4 /* PBXContainerItemProxy */;
+		};
+		9B9F7B9F22104562009C9359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B5BC709220F55C20047CFA4 /* Mercari */;
+			targetProxy = 9B9F7B9E22104562009C9359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B5BC725220F55D20047CFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B5BC726220F55D20047CFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5BC728220F55D20047CFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TAU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B5BC729220F55D20047CFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TAU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B5BC72B220F55D20047CFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercari.app/Mercari";
+			};
+			name = Debug;
+		};
+		9B5BC72C220F55D20047CFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercari.app/Mercari";
+			};
+			name = Release;
+		};
+		9B9F7BA022104562009C9359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TAU;
+			};
+			name = Debug;
+		};
+		9B9F7BA122104562009C9359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8YSTT4EW3;
+				INFOPLIST_FILE = TAUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shashikant.TAUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TAU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B5BC705220F55C20047CFA4 /* Build configuration list for PBXProject "Mercari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BC725220F55D20047CFA4 /* Debug */,
+				9B5BC726220F55D20047CFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5BC727220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "Mercari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BC728220F55D20047CFA4 /* Debug */,
+				9B5BC729220F55D20047CFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5BC72A220F55D20047CFA4 /* Build configuration list for PBXNativeTarget "MercariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5BC72B220F55D20047CFA4 /* Debug */,
+				9B5BC72C220F55D20047CFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9F7BA222104562009C9359 /* Build configuration list for PBXNativeTarget "MercariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9F7BA022104562009C9359 /* Debug */,
+				9B9F7BA122104562009C9359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B5BC702220F55C20047CFA4 /* Project object */;
+}
